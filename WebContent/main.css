@@ -3,7 +3,7 @@
 body {
 	background-repeat: no-repeat;
 	color: white;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-image: URL("http://dojo-game.com/wp-content/uploads/2016/03/52d4d9_d9f16ede375c48c2bd874eb2459009ef.jpeg");"
 }
 

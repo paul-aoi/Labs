@@ -5,20 +5,26 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Coding Dojo</title>
+<link href="main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+
 Thank you for registering at Grant Chirpus ${param.name}!<br>
 You have selected the ${param.Bootcamp} boot camp.<br>
-you are ${param.gender}<br>
+The cost for the ${param.Bootcamp} is: free because you're the man!<br>
+We will attempt to contact you at ${param.email} about...things.<br>
+
+
 
 
 <!--  data: ${param.name}  is a member of the  ${param.Bootcamp} bootcamp. -->
-<%
-	
-	
+<%-- <%
 	out.println(request.getParameter("gender"));
 	out.println(request.getParameter("transport"));
+%> --%>
+<%
 
 %>
+
 </body>
 </html>
